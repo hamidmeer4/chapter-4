@@ -7,6 +7,7 @@ import { Chap4Component } from './chap-4/chap-4.component';
 import { HoverHighlightDirective } from './directive/hover-highlight.directive';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { UsdpkrPipe } from './pipes/usdpkr.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { UsdpkrPipe } from './pipes/usdpkr.pipe';
     Chap4Component,
     HoverHighlightDirective,
     CapitalizePipe,
-    UsdpkrPipe
+    UsdpkrPipe,
+    NavbarComponent
 
   ],
   imports: [
